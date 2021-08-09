@@ -6,8 +6,8 @@
         class="progressLinear"
         value="10"
         height="6px"
-        background-color='rgb(130, 39, 159)'
-        v-model="valueDeterminate">
+        v-model="valueDeterminate"
+       >
     </v-progress-linear>
   </v-container>
 </template>

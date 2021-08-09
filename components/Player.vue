@@ -10,7 +10,7 @@
         {{ activeVideo.title }}
       </h2>
       <p class="subtitle">{{ activeVideo.subtitle }}</p>
-      <ProgressBar/>
+     <ProgressBar/>
       <div class="timer">
         <p class="start">{{ currentlyTimer }}</p>
         <p class="end">
@@ -43,7 +43,6 @@ export default {
   }),
 
   methods: {
-
     play() {
       this.$refs.videoPlay.play()
       this.isPlaying = true
@@ -69,7 +68,6 @@ export default {
       this.current = this.videos[this.index];
       this.play(this.current);
       this.activeVideo = this.current
-
     }
   }
 }
