@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ViseoPlayer',
-    title: 'ViseoPlayer',
+    titleTemplate: '%s - VideoPlayer',
+    title: 'VideoPlayer',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,7 +16,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    plugins: ['/plugins/vuetify.js'],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

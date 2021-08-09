@@ -1,4 +1,4 @@
-# ViseoPlayer
+# VideoPlayer
 
 ## Build Setup
 
